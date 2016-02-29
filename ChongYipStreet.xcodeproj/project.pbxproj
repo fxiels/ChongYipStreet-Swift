@@ -121,6 +121,20 @@
 		566DA5C61C7BEFEA00A6E91C /* you@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566DA5751C7BEFEA00A6E91C /* you@3x.png */; };
 		566DA5C71C7BEFEA00A6E91C /* yx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566DA5761C7BEFEA00A6E91C /* yx@2x.png */; };
 		566DA5C81C7BEFEA00A6E91C /* zlsh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 566DA5771C7BEFEA00A6E91C /* zlsh@2x.png */; };
+		56A274871C83D9DD00BD71F6 /* CYSMineMediaAndPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A274851C83D9DD00BD71F6 /* CYSMineMediaAndPostController.swift */; };
+		56A274881C83D9DD00BD71F6 /* CYSMinePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A274861C83D9DD00BD71F6 /* CYSMinePlanViewController.swift */; };
+		56A2748B1C83DA0A00BD71F6 /* CYMineLblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A274891C83DA0A00BD71F6 /* CYMineLblCell.swift */; };
+		56A2748C1C83DA0A00BD71F6 /* CYMineLblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A2748A1C83DA0A00BD71F6 /* CYMineLblCell.xib */; };
+		56A2748F1C83E15800BD71F6 /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A2748E1C83E15800BD71F6 /* login_bg.png */; };
+		56A274951C83E45A00BD71F6 /* CYSMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A274941C83E45A00BD71F6 /* CYSMotionView.swift */; };
+		56A274991C83E56C00BD71F6 /* qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A274961C83E56C00BD71F6 /* qq@2x.png */; };
+		56A2749A1C83E56C00BD71F6 /* wechat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A274971C83E56C00BD71F6 /* wechat@2x.png */; };
+		56A2749B1C83E56C00BD71F6 /* weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A274981C83E56C00BD71F6 /* weibo@2x.png */; };
+		56A2749F1C83E57500BD71F6 /* qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A2749C1C83E57500BD71F6 /* qq@3x.png */; };
+		56A274A01C83E57500BD71F6 /* wechat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A2749D1C83E57500BD71F6 /* wechat@3x.png */; };
+		56A274A11C83E57500BD71F6 /* weibo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A2749E1C83E57500BD71F6 /* weibo@3x.png */; };
+		56A274A31C83E59100BD71F6 /* subject_title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A274A21C83E59100BD71F6 /* subject_title@3x.png */; };
+		56A274A51C83E59A00BD71F6 /* subject_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A274A41C83E59A00BD71F6 /* subject_title@2x.png */; };
 		56A6BFFD1C59ECE100AEA490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A6BFFC1C59ECE100AEA490 /* AppDelegate.swift */; };
 		56A6C0041C59ECE100AEA490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A6C0031C59ECE100AEA490 /* Assets.xcassets */; };
 		56A6C0071C59ECE100AEA490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A6C0051C59ECE100AEA490 /* LaunchScreen.storyboard */; };
@@ -154,7 +168,6 @@
 		56F869111C7AA571001BDB7B /* CYUserHomeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56F869091C7AA571001BDB7B /* CYUserHomeHeadView.xib */; };
 		56F869121C7AA571001BDB7B /* CYUserDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8690B1C7AA571001BDB7B /* CYUserDetailedViewController.swift */; };
 		56F869131C7AA571001BDB7B /* CYUserHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8690C1C7AA571001BDB7B /* CYUserHomeViewController.swift */; };
-		56F869141C7AA571001BDB7B /* CYUserNameCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8690D1C7AA571001BDB7B /* CYUserNameCardViewController.swift */; };
 		56F869181C7AA624001BDB7B /* CYSEditUserInfosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F869151C7AA624001BDB7B /* CYSEditUserInfosViewController.swift */; };
 		56F8691A1C7AA624001BDB7B /* CYSUserInfosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F869171C7AA624001BDB7B /* CYSUserInfosViewController.swift */; };
 		56F8691C1C7AA658001BDB7B /* CYSMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8691B1C7AA658001BDB7B /* CYSMineViewController.swift */; };
@@ -183,6 +196,15 @@
 		740F097B1C64B4AE00C0C61A /* CYSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F096A1C64B4AE00C0C61A /* CYSBaseViewController.swift */; };
 		740F097C1C64B4AE00C0C61A /* CYSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F096B1C64B4AE00C0C61A /* CYSNavigationController.swift */; };
 		740F097D1C64B4AE00C0C61A /* CYSTribuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F09701C64B4AE00C0C61A /* CYSTribuneViewController.swift */; };
+		74E9F7711C81660400BA0960 /* CYLeaveCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9F76F1C81660400BA0960 /* CYLeaveCommentCell.swift */; };
+		74E9F7721C81660400BA0960 /* CYLeaveCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E9F7701C81660400BA0960 /* CYLeaveCommentCell.xib */; };
+		74E9F7751C8174A300BA0960 /* CYUserNameCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9F7731C8174A300BA0960 /* CYUserNameCardViewController.swift */; };
+		74E9F7761C8174A300BA0960 /* CYUserNameCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E9F7741C8174A300BA0960 /* CYUserNameCardViewController.xib */; };
+		74E9F7791C817C0600BA0960 /* CYCardTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9F7771C817C0600BA0960 /* CYCardTextFieldCell.swift */; };
+		74E9F77A1C817C0600BA0960 /* CYCardTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E9F7781C817C0600BA0960 /* CYCardTextFieldCell.xib */; };
+		74E9F77E1C817C2600BA0960 /* CYCardTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9F77C1C817C2600BA0960 /* CYCardTextViewCell.swift */; };
+		74E9F77F1C817C2600BA0960 /* CYCardTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E9F77D1C817C2600BA0960 /* CYCardTextViewCell.xib */; };
+		74F50D2E1C8191CC00923842 /* CYMyPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F50D2C1C8191CC00923842 /* CYMyPostViewController.swift */; };
 		771627F81C7CA9690059CCBE /* CYSBackgroundDataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771627F71C7CA9690059CCBE /* CYSBackgroundDataOperation.swift */; };
 /* End PBXBuildFile section */
 
@@ -318,6 +340,20 @@
 		566DA5751C7BEFEA00A6E91C /* you@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "you@3x.png"; path = "resource/project_1/you@3x.png"; sourceTree = "<group>"; };
 		566DA5761C7BEFEA00A6E91C /* yx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yx@2x.png"; path = "resource/project_1/yx@2x.png"; sourceTree = "<group>"; };
 		566DA5771C7BEFEA00A6E91C /* zlsh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zlsh@2x.png"; path = "resource/project_1/zlsh@2x.png"; sourceTree = "<group>"; };
+		56A274851C83D9DD00BD71F6 /* CYSMineMediaAndPostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSMineMediaAndPostController.swift; sourceTree = "<group>"; };
+		56A274861C83D9DD00BD71F6 /* CYSMinePlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSMinePlanViewController.swift; sourceTree = "<group>"; };
+		56A274891C83DA0A00BD71F6 /* CYMineLblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMineLblCell.swift; sourceTree = "<group>"; };
+		56A2748A1C83DA0A00BD71F6 /* CYMineLblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYMineLblCell.xib; sourceTree = "<group>"; };
+		56A2748E1C83E15800BD71F6 /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_bg.png; sourceTree = "<group>"; };
+		56A274941C83E45A00BD71F6 /* CYSMotionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSMotionView.swift; sourceTree = "<group>"; };
+		56A274961C83E56C00BD71F6 /* qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq@2x.png"; sourceTree = "<group>"; };
+		56A274971C83E56C00BD71F6 /* wechat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wechat@2x.png"; sourceTree = "<group>"; };
+		56A274981C83E56C00BD71F6 /* weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo@2x.png"; sourceTree = "<group>"; };
+		56A2749C1C83E57500BD71F6 /* qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq@3x.png"; sourceTree = "<group>"; };
+		56A2749D1C83E57500BD71F6 /* wechat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wechat@3x.png"; sourceTree = "<group>"; };
+		56A2749E1C83E57500BD71F6 /* weibo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo@3x.png"; sourceTree = "<group>"; };
+		56A274A21C83E59100BD71F6 /* subject_title@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subject_title@3x.png"; sourceTree = "<group>"; };
+		56A274A41C83E59A00BD71F6 /* subject_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subject_title@2x.png"; sourceTree = "<group>"; };
 		56A6BFF91C59ECE100AEA490 /* ChongYipStreet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChongYipStreet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A6BFFC1C59ECE100AEA490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56A6C0031C59ECE100AEA490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -357,7 +393,6 @@
 		56F869091C7AA571001BDB7B /* CYUserHomeHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYUserHomeHeadView.xib; sourceTree = "<group>"; };
 		56F8690B1C7AA571001BDB7B /* CYUserDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYUserDetailedViewController.swift; sourceTree = "<group>"; };
 		56F8690C1C7AA571001BDB7B /* CYUserHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYUserHomeViewController.swift; sourceTree = "<group>"; };
-		56F8690D1C7AA571001BDB7B /* CYUserNameCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYUserNameCardViewController.swift; sourceTree = "<group>"; };
 		56F869151C7AA624001BDB7B /* CYSEditUserInfosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSEditUserInfosViewController.swift; sourceTree = "<group>"; };
 		56F869171C7AA624001BDB7B /* CYSUserInfosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSUserInfosViewController.swift; sourceTree = "<group>"; };
 		56F8691B1C7AA658001BDB7B /* CYSMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSMineViewController.swift; sourceTree = "<group>"; };
@@ -388,6 +423,15 @@
 		740F096A1C64B4AE00C0C61A /* CYSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSBaseViewController.swift; sourceTree = "<group>"; };
 		740F096B1C64B4AE00C0C61A /* CYSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSNavigationController.swift; sourceTree = "<group>"; };
 		740F09701C64B4AE00C0C61A /* CYSTribuneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSTribuneViewController.swift; sourceTree = "<group>"; };
+		74E9F76F1C81660400BA0960 /* CYLeaveCommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLeaveCommentCell.swift; sourceTree = "<group>"; };
+		74E9F7701C81660400BA0960 /* CYLeaveCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYLeaveCommentCell.xib; sourceTree = "<group>"; };
+		74E9F7731C8174A300BA0960 /* CYUserNameCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYUserNameCardViewController.swift; sourceTree = "<group>"; };
+		74E9F7741C8174A300BA0960 /* CYUserNameCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYUserNameCardViewController.xib; sourceTree = "<group>"; };
+		74E9F7771C817C0600BA0960 /* CYCardTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYCardTextFieldCell.swift; sourceTree = "<group>"; };
+		74E9F7781C817C0600BA0960 /* CYCardTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYCardTextFieldCell.xib; sourceTree = "<group>"; };
+		74E9F77C1C817C2600BA0960 /* CYCardTextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYCardTextViewCell.swift; sourceTree = "<group>"; };
+		74E9F77D1C817C2600BA0960 /* CYCardTextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYCardTextViewCell.xib; sourceTree = "<group>"; };
+		74F50D2C1C8191CC00923842 /* CYMyPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMyPostViewController.swift; sourceTree = "<group>"; };
 		771627F21C7CA7FA0059CCBE /* ChongYipStreet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChongYipStreet-Bridging-Header.h"; sourceTree = "<group>"; };
 		771627F71C7CA9690059CCBE /* CYSBackgroundDataOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSBackgroundDataOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -430,6 +474,7 @@
 		566DA3D61C7BED0000A6E91C /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				56A2748D1C83E13D00BD71F6 /* login */,
 				566DA3D81C7BED1400A6E91C /* project_2 */,
 				566DA3D71C7BED0A00A6E91C /* project_1 */,
 			);
@@ -563,6 +608,22 @@
 			name = project_2;
 			sourceTree = "<group>";
 		};
+		56A2748D1C83E13D00BD71F6 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				56A274A41C83E59A00BD71F6 /* subject_title@2x.png */,
+				56A274A21C83E59100BD71F6 /* subject_title@3x.png */,
+				56A274961C83E56C00BD71F6 /* qq@2x.png */,
+				56A274971C83E56C00BD71F6 /* wechat@2x.png */,
+				56A274981C83E56C00BD71F6 /* weibo@2x.png */,
+				56A2749C1C83E57500BD71F6 /* qq@3x.png */,
+				56A2749D1C83E57500BD71F6 /* wechat@3x.png */,
+				56A2749E1C83E57500BD71F6 /* weibo@3x.png */,
+				56A2748E1C83E15800BD71F6 /* login_bg.png */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
 		56A6BFF01C59ECE100AEA490 = {
 			isa = PBXGroup;
 			children = (
@@ -639,6 +700,7 @@
 				56F868F41C7AA41B001BDB7B /* CYProgramViewController.swift */,
 				56F868F51C7AA41B001BDB7B /* CYSeekViewController.swift */,
 				56F868F61C7AA41B001BDB7B /* CYTeamViewController.swift */,
+				74F50D2C1C8191CC00923842 /* CYMyPostViewController.swift */,
 			);
 			name = SendViewController;
 			path = ..;
@@ -676,6 +738,12 @@
 				56F869071C7AA571001BDB7B /* CYUserHeadView.xib */,
 				56F869081C7AA571001BDB7B /* CYUserHomeHeadView.swift */,
 				56F869091C7AA571001BDB7B /* CYUserHomeHeadView.xib */,
+				74E9F76F1C81660400BA0960 /* CYLeaveCommentCell.swift */,
+				74E9F7701C81660400BA0960 /* CYLeaveCommentCell.xib */,
+				74E9F7771C817C0600BA0960 /* CYCardTextFieldCell.swift */,
+				74E9F7781C817C0600BA0960 /* CYCardTextFieldCell.xib */,
+				74E9F77C1C817C2600BA0960 /* CYCardTextViewCell.swift */,
+				74E9F77D1C817C2600BA0960 /* CYCardTextViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -685,7 +753,8 @@
 			children = (
 				56F8690B1C7AA571001BDB7B /* CYUserDetailedViewController.swift */,
 				56F8690C1C7AA571001BDB7B /* CYUserHomeViewController.swift */,
-				56F8690D1C7AA571001BDB7B /* CYUserNameCardViewController.swift */,
+				74E9F7731C8174A300BA0960 /* CYUserNameCardViewController.swift */,
+				74E9F7741C8174A300BA0960 /* CYUserNameCardViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -802,6 +871,8 @@
 		740F09611C64B4AE00C0C61A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				56A274891C83DA0A00BD71F6 /* CYMineLblCell.swift */,
+				56A2748A1C83DA0A00BD71F6 /* CYMineLblCell.xib */,
 				56F8692A1C7AA6FB001BDB7B /* userInfos */,
 				56F8691D1C7AA6F6001BDB7B /* mine */,
 			);
@@ -814,6 +885,8 @@
 				56F8691B1C7AA658001BDB7B /* CYSMineViewController.swift */,
 				56F869151C7AA624001BDB7B /* CYSEditUserInfosViewController.swift */,
 				56F869171C7AA624001BDB7B /* CYSUserInfosViewController.swift */,
+				56A274851C83D9DD00BD71F6 /* CYSMineMediaAndPostController.swift */,
+				56A274861C83D9DD00BD71F6 /* CYSMinePlanViewController.swift */,
 			);
 			path = viewcontroller;
 			sourceTree = "<group>";
@@ -860,6 +933,7 @@
 			children = (
 				740F096A1C64B4AE00C0C61A /* CYSBaseViewController.swift */,
 				740F096B1C64B4AE00C0C61A /* CYSNavigationController.swift */,
+				56A274941C83E45A00BD71F6 /* CYSMotionView.swift */,
 			);
 			path = superClass;
 			sourceTree = "<group>";
@@ -1025,9 +1099,11 @@
 				566DA4771C7BEE5100A6E91C /* relation_data@2x.png in Resources */,
 				566DA5851C7BEFEA00A6E91C /* geng@2x.png in Resources */,
 				566DA5C21C7BEFEA00A6E91C /* xm@3x.png in Resources */,
+				74E9F77A1C817C0600BA0960 /* CYCardTextFieldCell.xib in Resources */,
 				566DA5AE1C7BEFEA00A6E91C /* sc@3x.png in Resources */,
 				566DA5B71C7BEFEA00A6E91C /* tou@2x.png in Resources */,
 				566DA47F1C7BEE5100A6E91C /* study@2x.png in Resources */,
+				56A274A01C83E57500BD71F6 /* wechat@3x.png in Resources */,
 				566DA5871C7BEFEA00A6E91C /* gz@2x.png in Resources */,
 				566DA58B1C7BEFEA00A6E91C /* home_normal@2x.png in Resources */,
 				566DA4811C7BEE5100A6E91C /* team@2x.png in Resources */,
@@ -1053,6 +1129,7 @@
 				566DA5A21C7BEFEA00A6E91C /* message_select@3x.png in Resources */,
 				566DA4751C7BEE5100A6E91C /* my_work@2x.png in Resources */,
 				566DA5951C7BEFEA00A6E91C /* human3@2x.png in Resources */,
+				56A274A11C83E57500BD71F6 /* weibo@3x.png in Resources */,
 				566DA4851C7BEE5100A6E91C /* work_history@2x.png in Resources */,
 				566DA5921C7BEFEA00A6E91C /* human1@3x.png in Resources */,
 				566DA5B51C7BEFEA00A6E91C /* tao@2x.png in Resources */,
@@ -1061,9 +1138,12 @@
 				566DA5BF1C7BEFEA00A6E91C /* wei@2x.png in Resources */,
 				566DA5AD1C7BEFEA00A6E91C /* sc@2x.png in Resources */,
 				566DA47C1C7BEE5100A6E91C /* relation_project@3x.png in Resources */,
+				74E9F7721C81660400BA0960 /* CYLeaveCommentCell.xib in Resources */,
 				56F868E81C7AA3EF001BDB7B /* CYCommandCell.xib in Resources */,
 				566DA5AC1C7BEFEA00A6E91C /* right_w@2x.png in Resources */,
 				566DA5B01C7BEFEA00A6E91C /* sheng@3x.png in Resources */,
+				74E9F77F1C817C2600BA0960 /* CYCardTextViewCell.xib in Resources */,
+				56A2748F1C83E15800BD71F6 /* login_bg.png in Resources */,
 				566DA4791C7BEE5100A6E91C /* relation_post@2x.png in Resources */,
 				56F868F21C7AA3EF001BDB7B /* CYSeekUserCell.xib in Resources */,
 				56F868F01C7AA3EF001BDB7B /* CYSeekPostCell.xib in Resources */,
@@ -1072,18 +1152,22 @@
 				566DA4701C7BEE5100A6E91C /* look@3x.png in Resources */,
 				566DA5BE1C7BEFEA00A6E91C /* w-d-xm@2x.png in Resources */,
 				566DA5A41C7BEFEA00A6E91C /* my_medial@3x.png in Resources */,
+				56A274991C83E56C00BD71F6 /* qq@2x.png in Resources */,
 				566DA4711C7BEE5100A6E91C /* my_method@2x.png in Resources */,
 				56A6C0071C59ECE100AEA490 /* LaunchScreen.storyboard in Resources */,
 				566DA5C61C7BEFEA00A6E91C /* you@3x.png in Resources */,
 				566DA5A31C7BEFEA00A6E91C /* my_medial@2x.png in Resources */,
 				566DA58A1C7BEFEA00A6E91C /* hhr@3x.png in Resources */,
+				56A274A51C83E59A00BD71F6 /* subject_title@2x.png in Resources */,
 				566DA5941C7BEFEA00A6E91C /* human2@3x.png in Resources */,
 				566DA5B11C7BEFEA00A6E91C /* shqn@2x.png in Resources */,
 				566DA46C1C7BEE5100A6E91C /* look_cash@3x.png in Resources */,
+				56A2749A1C83E56C00BD71F6 /* wechat@2x.png in Resources */,
 				566DA5A71C7BEFEA00A6E91C /* my_teizi@2x.png in Resources */,
 				566DA47E1C7BEE5100A6E91C /* right_arrows@3x.png in Resources */,
 				566DA5C41C7BEFEA00A6E91C /* xx@3x.png in Resources */,
 				566DA57F1C7BEFEA00A6E91C /* fs@2x.png in Resources */,
+				56A2748C1C83DA0A00BD71F6 /* CYMineLblCell.xib in Resources */,
 				566DA4821C7BEE5100A6E91C /* team@3x.png in Resources */,
 				56F869111C7AA571001BDB7B /* CYUserHomeHeadView.xib in Resources */,
 				566DA46B1C7BEE5100A6E91C /* look_cash@2x.png in Resources */,
@@ -1108,8 +1192,10 @@
 				566DA4691C7BEE5100A6E91C /* human_nums@2x.png in Resources */,
 				566DA59D1C7BEFEA00A6E91C /* light_select@2x.png in Resources */,
 				566DA46F1C7BEE5100A6E91C /* look@2x.png in Resources */,
+				56A2749F1C83E57500BD71F6 /* qq@3x.png in Resources */,
 				566DA5AB1C7BEFEA00A6E91C /* py@2x.png in Resources */,
 				566DA5A61C7BEFEA00A6E91C /* my_project@3x.png in Resources */,
+				74E9F7761C8174A300BA0960 /* CYUserNameCardViewController.xib in Resources */,
 				566DA5861C7BEFEA00A6E91C /* geng@3x.png in Resources */,
 				566DA5BD1C7BEFEA00A6E91C /* w-d-x-m@2x.png in Resources */,
 				56F868EE1C7AA3EF001BDB7B /* CYProjectCell.xib in Resources */,
@@ -1120,6 +1206,7 @@
 				566DA5B31C7BEFEA00A6E91C /* shr@2x.png in Resources */,
 				566DA5BC1C7BEFEA00A6E91C /* user_select@2x.png in Resources */,
 				566DA4731C7BEE5100A6E91C /* my_project_1@2x.png in Resources */,
+				56A274A31C83E59100BD71F6 /* subject_title@3x.png in Resources */,
 				566DA5C01C7BEFEA00A6E91C /* wei@3x.png in Resources */,
 				566DA5C71C7BEFEA00A6E91C /* yx@2x.png in Resources */,
 				566DA46D1C7BEE5100A6E91C /* look_team@2x.png in Resources */,
@@ -1127,6 +1214,7 @@
 				566DA58F1C7BEFEA00A6E91C /* hu@2x.png in Resources */,
 				566DA4671C7BEE5100A6E91C /* cash@2x.png in Resources */,
 				566DA58D1C7BEFEA00A6E91C /* home_select@2x.png in Resources */,
+				56A2749B1C83E56C00BD71F6 /* weibo@2x.png in Resources */,
 				56F8690F1C7AA571001BDB7B /* CYUserHeadView.xib in Resources */,
 				566DA5931C7BEFEA00A6E91C /* human2@2x.png in Resources */,
 				566DA5981C7BEFEA00A6E91C /* human4@3x.png in Resources */,
@@ -1221,23 +1309,29 @@
 				740F09781C64B4AE00C0C61A /* CYSUserModel.swift in Sources */,
 				740F09711C64B4AE00C0C61A /* CYSCommandViewController.swift in Sources */,
 				56F869361C7AABDF001BDB7B /* CYSSubjectSecondTableViewCell.swift in Sources */,
+				74F50D2E1C8191CC00923842 /* CYMyPostViewController.swift in Sources */,
 				56F869291C7AA6F6001BDB7B /* CYSUserMeansView.swift in Sources */,
 				56F868EB1C7AA3EF001BDB7B /* CYProgramCell.swift in Sources */,
 				740F097D1C64B4AE00C0C61A /* CYSTribuneViewController.swift in Sources */,
 				56F869271C7AA6F6001BDB7B /* CYSMineSecondTableviewCell.swift in Sources */,
 				56F868F91C7AA41B001BDB7B /* CYSeekViewController.swift in Sources */,
 				56F868F71C7AA41B001BDB7B /* CYCommunicateViewController.swift in Sources */,
+				56A274871C83D9DD00BD71F6 /* CYSMineMediaAndPostController.swift in Sources */,
 				56A6BFFD1C59ECE100AEA490 /* AppDelegate.swift in Sources */,
 				56F869281C7AA6F6001BDB7B /* CYSUserheadView.swift in Sources */,
 				740F097B1C64B4AE00C0C61A /* CYSBaseViewController.swift in Sources */,
 				56F868EA1C7AA3EF001BDB7B /* CYCustomSegmentedView.swift in Sources */,
+				74E9F7791C817C0600BA0960 /* CYCardTextFieldCell.swift in Sources */,
 				56F869241C7AA6F6001BDB7B /* CYSMineFirstTableviewCell.swift in Sources */,
+				74E9F7711C81660400BA0960 /* CYLeaveCommentCell.swift in Sources */,
 				56F869341C7AAB8F001BDB7B /* CYSHumanCateView.swift in Sources */,
 				56F869101C7AA571001BDB7B /* CYUserHomeHeadView.swift in Sources */,
 				56F868DA1C7AA3BE001BDB7B /* CYPostViewController.swift in Sources */,
 				56F869021C7AA55F001BDB7B /* CYSearchViewController.swift in Sources */,
+				56A274951C83E45A00BD71F6 /* CYSMotionView.swift in Sources */,
 				56F8693C1C7AAC62001BDB7B /* CYSFunctionViewController.swift in Sources */,
 				740F097A1C64B4AE00C0C61A /* CYSProjectViewController.swift in Sources */,
+				74E9F77E1C817C2600BA0960 /* CYCardTextViewCell.swift in Sources */,
 				56F869131C7AA571001BDB7B /* CYUserHomeViewController.swift in Sources */,
 				56E3D9781C7DAE5900EFB3CB /* CYSBackgroundUserTableOperationViewController.swift in Sources */,
 				56F8690E1C7AA571001BDB7B /* CYUserHeadView.swift in Sources */,
@@ -1245,6 +1339,7 @@
 				56F8692E1C7AA776001BDB7B /* CYSDefine.swift in Sources */,
 				56F868E71C7AA3EF001BDB7B /* CYCommandCell.swift in Sources */,
 				56F8691C1C7AA658001BDB7B /* CYSMineViewController.swift in Sources */,
+				56A274881C83D9DD00BD71F6 /* CYSMinePlanViewController.swift in Sources */,
 				56F868FA1C7AA41B001BDB7B /* CYTeamViewController.swift in Sources */,
 				56F869251C7AA6F6001BDB7B /* CYSMineMeansCollectionViewCell.swift in Sources */,
 				740F09731C64B4AE00C0C61A /* CYSDataBaseManager.swift in Sources */,
@@ -1254,6 +1349,7 @@
 				740F09741C64B4AE00C0C61A /* CYSParser.swift in Sources */,
 				56F868FE1C7AA48C001BDB7B /* CYTribuneCell.swift in Sources */,
 				56F868E91C7AA3EF001BDB7B /* CYCustomButtons.swift in Sources */,
+				56A2748B1C83DA0A00BD71F6 /* CYMineLblCell.swift in Sources */,
 				56F869181C7AA624001BDB7B /* CYSEditUserInfosViewController.swift in Sources */,
 				56F869261C7AA6F6001BDB7B /* CYSMineSecondCollectionViewCell.swift in Sources */,
 				56F868F81C7AA41B001BDB7B /* CYProgramViewController.swift in Sources */,
@@ -1263,10 +1359,10 @@
 				740F09721C64B4AE00C0C61A /* CYSHttpManager.swift in Sources */,
 				740F09771C64B4AE00C0C61A /* CYSLoginViewController.swift in Sources */,
 				740F097C1C64B4AE00C0C61A /* CYSNavigationController.swift in Sources */,
-				56F869141C7AA571001BDB7B /* CYUserNameCardViewController.swift in Sources */,
 				740F09751C64B4AE00C0C61A /* CYSRequestMethodDefine.swift in Sources */,
 				56F868EF1C7AA3EF001BDB7B /* CYSeekPostCell.swift in Sources */,
 				56F869381C7AAC02001BDB7B /* CYSSubjectSecondCollectionViewCell.swift in Sources */,
+				74E9F7751C8174A300BA0960 /* CYUserNameCardViewController.swift in Sources */,
 				56F869121C7AA571001BDB7B /* CYUserDetailedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1403,6 +1499,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = ChongYipStreet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1419,6 +1517,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = ChongYipStreet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

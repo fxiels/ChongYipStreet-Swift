@@ -33,9 +33,9 @@ class CYUserHeadView: UIView {
     weak var delegate : CYUserHeadViewDelegate? = nil
     
     static func initUserHeadView() ->CYUserHeadView{
-
+        
         if let userHeadView = NSBundle.mainBundle().loadNibNamed("CYUserHeadView", owner: nil, options: nil).first as? CYUserHeadView {
-            
+        
             userHeadView.FansLabel.text = CYNSLocalizedString("粉丝")
             userHeadView.contactLabel.text = CYNSLocalizedString("联系")
             userHeadView.locationLabel.text = CYNSLocalizedString("所在地")

@@ -75,8 +75,9 @@ class CYSCommandViewController: CYSBaseViewController,CYCustomSegmentedViewDeleg
         segmentedControl.addTarget(self, action: "updateTitleIndex:", forControlEvents: .ValueChanged)
         self.navigationItem.titleView = segmentedControl
         
+        
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "search"), style: .Plain, target: self, action: "actionMessage:")
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "search"), style: .Plain, target: self, action: "actionSearch:")
+        self.navigationItem.rightBarButtonItems = [UIBarButtonItem(image: UIImage(named: "search"), style: .Plain, target: self, action: "actionSearch:"),UIBarButtonItem(image: UIImage(named: "my_project.png"), style:.Done, target: self, action: "actionUserHome:")]
     }
     
     //MARK:- NavigationEvent
@@ -89,6 +90,11 @@ class CYSCommandViewController: CYSBaseViewController,CYCustomSegmentedViewDeleg
     }
     func actionMessage(messageItem : UIBarButtonItem){
         
+    }
+    
+    func actionUserHome(messageItem : UIBarButtonItem){
+        let userHomeViewController = CYUserHomeViewController()
+        self.navigationController?.pushViewController(userHomeViewController, animated: true)
     }
     func actionSearch(searchItem : UIBarButtonItem){
         let searchViewController = CYSearchViewController()

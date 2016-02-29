@@ -125,6 +125,7 @@ extension CYUserHomeViewController : UITableViewDelegate,UITableViewDataSource{
             numberLabel = UILabel()
             if let label = numberLabel{
                 
+                label.tag = 1024
                 label.textAlignment = .Right
                 label.translatesAutoresizingMaskIntoConstraints = false
                 
@@ -133,7 +134,7 @@ extension CYUserHomeViewController : UITableViewDelegate,UITableViewDataSource{
                 let numberLabelVConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[numberLabel]-0-|", options: .DirectionLeadingToTrailing, metrics: nil, views: ["numberLabel":label])
                 let numberLabelHConstraints =
                     [NSLayoutConstraint(item: label, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 100),
-                     NSLayoutConstraint(item: label, attribute: .Right, relatedBy: .Equal, toItem: cell.contentView, attribute: .Right, multiplier: 1.0, constant: -10)]
+                     NSLayoutConstraint(item: label, attribute: .Right, relatedBy: .Equal, toItem: cell.contentView, attribute: .Right, multiplier: 1.0, constant: -5)]
                 
                 cell.contentView.addConstraints(numberLabelHConstraints)
                 cell.contentView.addConstraints(numberLabelVConstraints)
@@ -142,14 +143,31 @@ extension CYUserHomeViewController : UITableViewDelegate,UITableViewDataSource{
         }
         numberLabel?.text = "9999"
 
-        
+        cell.accessoryType = .DisclosureIndicator
         
         return cell ?? UITableViewCell()
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
-        self.tableViewReloadData()
+        switch indexPath.item{
+        case 0:
+            let myPostViewController = CYMyPostViewController()
+            self.navigationController?.pushViewController(myPostViewController, animated: true)
+        case 1:
+            let myPostViewController = CYMyPostViewController()
+            self.navigationController?.pushViewController(myPostViewController, animated: true)
+        case 2:
+            let myPostViewController = CYMyPostViewController()
+            self.navigationController?.pushViewController(myPostViewController, animated: true)
+        case 3:
+            let myPostViewController = CYMyPostViewController()
+            self.navigationController?.pushViewController(myPostViewController, animated: true)
+        case 4:
+            let myPostViewController = CYMyPostViewController()
+            self.navigationController?.pushViewController(myPostViewController, animated: true)
+        default:break;
+        }
     }
     
     

@@ -13,6 +13,8 @@ private let dataBase = CYSDataBaseManager()
 class CYSDataBaseManager: NSObject {
 
     var db:Connection!
+    var _loginUser: CYSUserModel?
+    
     override init() {
         super.init()
         //创建数据库
